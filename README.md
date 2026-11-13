@@ -1,1 +1,3 @@
-OGXTC Smart Analysis v21 — Players & Session Report merged in top navigation and workspace tab; player gender (F red, M blue) and grade A+/A/A-/B+/B/B- colour coding emphasised in Live Group Overview. Single-file GitHub Pages deployment: upload index.html. No backend/accounting features.
+OGXTC Smart Analysis v23 — Court Mix
+
+Player Profiles: edit individual names and select Court A or Court B. Random Mix Courts randomizes assignments with a four-player capacity per court. Apply Courts updates live court assignments without clearing scores. Changing names or player count requires Start / Apply settings. Existing training features preserved.

@@ -1,12 +1,9 @@
-# OGX Smart Training Analytics v14
+# OGX Smart Training Analytics v14 — Layout Update
 
-GitHub Pages ready. Upload `index.html` to the root of your repository.
+GitHub Pages ready: upload `index.html`.
 
-## Update
-- Combined Live Performance Graph and Live Group Overview in a unified responsive panel.
-- Player Substitution immediately below the combined panel.
-- Retains v13 features and local browser history.
+- Player Substitution moved immediately below Training Settings.
+- Live Group Overview / Player Results placed below the Live Performance Graph, expanded full width.
+- Existing training features and local history remain unchanged.
 
-Open `index.html` in a modern browser. Data stored in browser localStorage.
-
-- Red RESET LIVE button in the top navigation tabs; confirmation required if scores exist; saved sessions retained.
+Note: This is a layout update of v14; v15 attendance/accounts modules are not implemented.

@@ -1,3 +1,1 @@
-OGXTC Smart Analysis v23 — Court Mix
-
-Player Profiles: edit individual names and select Court A or Court B. Random Mix Courts randomizes assignments with a four-player capacity per court. Apply Courts updates live court assignments without clearing scores. Changing names or player count requires Start / Apply settings. Existing training features preserved.
+OGXTC Smart Analysis v24 — Player Profiles in Players & Session Report. Edit player names, assign Court A/B, random mix, and apply names/courts to live training without losing scores. Maximum four players per court. Existing scores remain linked to player slots.

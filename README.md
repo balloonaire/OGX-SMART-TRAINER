@@ -1,22 +1,10 @@
-# OGX Smart Training Score v10 — USA Performance Elite
+# OGX Smart Training Score v11 — USA Pro Performance
 
-Standalone, client-side pickleball coaching dashboard for GitHub Pages. No build tools or backend required.
+Standalone GitHub Pages application. Upload `index.html` to your repository root, then enable Settings → Pages → Deploy from branch → main → /(root).
 
-## Deploy
-1. Upload `index.html` to the root of a GitHub repository.
-2. In repository Settings → Pages, select Deploy from a branch → `main` → `/ (root)`.
-3. Open the published GitHub Pages URL.
-
-## Features
-- 2–6 player slider, age category, gender (M/F), sport background, support/handicap level.
-- Novice, Beginner, Intermediate, Advanced, Expert difficulty; eight alphabetized drills.
-- Live blinking indicator, optional stopwatch, success/error and 0–3 quality rating.
-- Live performance graph, immediately followed by player substitution for rest, injury, or other reasons.
-- Player grades A+, A, A−, B+, B, B−, with a minimum five attempts.
-- Session reset, save history in local browser storage, CSV/JSON export, improvement graphs.
-
-## Notes
-- Independent OGX design inspired by professional American sports dashboards. Not affiliated with or endorsed by PPR.
-- Substituted players' prior results are retained separately. Update the replacement's profile after substituting.
-- Existing v9 local browser history is retained via the unchanged storage key.
-- Data stays in the browser; back up before clearing browser storage.
+## Changes
+- Visual design adapted from the user-provided reference: white/light-gray panels, deep USA navy, vivid red highlights, athletic typography, LIVE badge.
+- Player Substitution remains immediately below the Live Performance Graph.
+- Preserves the v10 training, player profiles, scoring, substitution, timer, progress and export features.
+- No external dependencies. Browser-local saved sessions; no multi-device sync.
+- This independently branded OGX interface is not an official PPR product or endorsement.

@@ -1,41 +1,25 @@
-# OGX Smart Training Score
+# OGX Smart Training Score v3
 
-A browser-based pickleball **training assessment** app for OGX Trainer Club. This is a standalone prototype, separate from competitive match scoring.
+Standalone GitHub Pages-compatible pickleball coaching score tracker. No build tools or dependencies.
 
 ## Features
-- Dinking Control, Third-Shot Drop, and Fast Hands drills
-- Beginner / Intermediate / Advanced settings
-- Coach-controlled success/error tracking with undo
-- Optional 0–3 quality scoring (0=error, 1=low, 2=good, 3=excellent); ratings 2–3 count as successful
-- Configurable target attempt count
-- Player name and coaching notes
-- Session history saved in browser localStorage
-- CSV export and JSON backup
-- Mobile-friendly design, no external dependencies
+- Configurable **2–6 players**, each with separate name, optional age, gender, sports background, support/handicap level and adaptation notes.
+- Difficulty options: Novice, Beginner, Intermediate, Advanced, Expert. Illustrative coaching benchmarks: 50%, 60%, 70%, 80%, 90% success, respectively; not official standards.
+- Three drills: Dinking Control, Third-Shot Drop, Fast Hands.
+- Individual live score selection, success/error buttons, optional 0–3 shot quality, undo and **Reset live training** (resets all live scores after confirmation; preserves saved history).
+- Local browser storage, CSV export, JSON backup.
 
-## Run locally
-Open `index.html` in any modern browser. No build step is needed.
+## Deploy to GitHub Pages
+1. Upload `index.html` and `README.md` to the root of your GitHub repository.
+2. In GitHub, open Settings → Pages → Build and deployment.
+3. Select Deploy from a branch, `main`, `/ (root)`, and Save.
+4. Wait for the Pages URL to appear.
 
-## Publish with GitHub Pages
-1. Create a public repository (or a repository eligible for Pages under your plan).
-2. Upload `index.html` and `README.md` to the repository root.
-3. Open **Settings → Pages**.
-4. Under **Build and deployment**, select **Deploy from a branch**.
-5. Choose `main` and `/ (root)`, then save.
-6. Wait for GitHub Pages to publish the site at the URL shown in Pages settings.
+## Notes
+- Starting/applying settings clears live attempts after confirmation; saving before changing settings is recommended.
+- Data is stored **only on the current device/browser**. No cross-device sync or authentication.
+- Support levels are voluntary training adaptations, not medical diagnoses. Age and gender do not automatically determine handicap or score.
+- Do not use this system for official match scoring.
 
-## Scoring definitions
-- Success rate = successful attempts / total attempts × 100.
-- Quality mode: 0 and 1 are unsuccessful; 2 and 3 are successful. Average quality is the arithmetic mean of graded attempts.
-- Target attempts is a coaching objective, not a hard stop.
-- Saved records represent snapshots: saving again in the same session updates that record.
-
-## Important limitations
-- This is a **single-device**, **offline-first** training prototype; no backend, authentication, cross-device sync, or shared live scoring.
-- Local data can be lost if browser storage is cleared. Export backups regularly.
-- CSV/JSON exports contain names and notes; handle them appropriately.
-- The app does not claim to measure actual reaction time or automatically detect shot placement. Coaches record observations manually.
-- Training scores are not official pickleball or DUPR results.
-
-## Brand palette
-Onyx `#010101` · Electric Indigo `#6331FB` · Tropical Mint `#88E8C0`.
+## v4 training drills
+Added Drive, Reset, Backhand Drive, Smash, and Lob to the existing Dinking Control, Third-Shot Drop, and Fast Hands drills. Each drill can be selected for a session; its name is saved in session history and CSV exports. The Reset drill is separate from the Reset Live Training button.

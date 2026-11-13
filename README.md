@@ -1,3 +1,1 @@
-OGXTC Smart Analysis v20
-
-Updated browser document title. JavaScript syntax and ZIP integrity checked. Browser testing blocked by environment.
+OGXTC Smart Analysis v21 — Players & Session Report merged in top navigation and workspace tab; player gender (F red, M blue) and grade A+/A/A-/B+/B/B- colour coding emphasised in Live Group Overview. Single-file GitHub Pages deployment: upload index.html. No backend/accounting features.

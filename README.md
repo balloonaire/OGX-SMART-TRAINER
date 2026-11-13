@@ -1,11 +1,12 @@
-# OGX Smart Training Analytics v13
+# OGX Smart Training Analytics v14
 
-Static GitHub Pages app. Upload `index.html` to repository root.
+GitHub Pages ready. Upload `index.html` to the root of your repository.
 
-## Layout changes
-- Live & Analytics tab contains Training Settings, Live Training, and Training Improvement Observation.
-- Players & History tab contains Player Profiles and Saved Training Sessions.
-- Training Improvement Observation appears before Saved Training Sessions in the overall document order.
-- Existing scoring, charts, timer, CSV/JSON history import, and substitutions are retained.
+## Update
+- Combined Live Performance Graph and Live Group Overview in a unified responsive panel.
+- Player Substitution immediately below the combined panel.
+- Retains v13 features and local browser history.
 
-Data is saved locally in the browser.
+Open `index.html` in a modern browser. Data stored in browser localStorage.
+
+- Red RESET LIVE button in the top navigation tabs; confirmation required if scores exist; saved sessions retained.

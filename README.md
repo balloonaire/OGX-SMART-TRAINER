@@ -1,9 +1,11 @@
-# OGX Smart Training Analytics v14 — Layout Update
+OGX Smart Training Analytics — v15 Layout Update
 
-GitHub Pages ready: upload `index.html`.
+Layout changes only, based on tested v14 baseline:
+- Training Settings and Player Substitution stacked in same left column and equal width.
+- Live Training in right column on desktop.
+- Live Performance Graph followed by horizontal full-width Live Group Overview / Player Results table.
+- Mobile stacks sections vertically; results table scrolls horizontally.
+- No scoring, timer, substitution, or saved history logic intentionally changed.
 
-- Player Substitution moved immediately below Training Settings.
-- Live Group Overview / Player Results placed below the Live Performance Graph, expanded full width.
-- Existing training features and local history remain unchanged.
-
-Note: This is a layout update of v14; v15 attendance/accounts modules are not implemented.
+GitHub Pages: upload index.html to repository root and enable Pages.
+This is a layout update, not the separate planned Attendance/Accounts v15 implementation.

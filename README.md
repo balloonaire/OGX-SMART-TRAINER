@@ -1,13 +1,13 @@
-# OGX Smart Training Score v8
+# OGX Smart Training Score v9
 
-GitHub Pages-ready standalone application. Upload `index.html` to the root of your repository and enable GitHub Pages under Settings > Pages.
+Standalone browser app for GitHub Pages. Upload `index.html` to repository root, then enable GitHub Pages (main branch, root).
 
-## New in v8
+## v9 additions
+- Sports background: None / New to sports first.
+- Player gender displayed as M or F (other/unspecified shown as —).
+- Development grades: A+, A, A-, B+, B, B-. Grades use success rate with at least five attempts (90/80/70/60/50% thresholds). These are provisional coaching benchmarks, not official ratings.
+- Live blinking indicator while a session is active (respects reduced-motion settings).
+- Inline live cumulative success-rate chart.
+- Player replacement for rest/injury/other. Outgoing player results are preserved separately in the saved session; incoming player starts with zero attempts. Complete replacement player profile fields after substituting.
 
-Training improvement chart for each player and drill using saved session history, with first/latest success rates, percentage-point change and relative percentage improvement. Difficulty is labelled to avoid misleading comparisons. Chart uses native SVG and requires no external libraries.
-
-## Existing features
-
-2–6 player slider; player profiles; five difficulty levels; eight alphabetized drills; live success/error and optional quality scores; optional stopwatch; live reset; saved sessions; CSV/JSON exports.
-
-Data is stored in browser localStorage only. Back up history before clearing browser data.
+All data is saved locally in the current browser. Export JSON/CSV for backups. No accounts or cloud sync.

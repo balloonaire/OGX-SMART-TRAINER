@@ -1,1 +1,1 @@
-OGX Smart Club Management v27: removed secondary Club Dashboard, Attendance and Accounts navigation tabs. All three modules appear in one dedicated Club Management workspace, stacked below the Club Management heading and separated from Live Training & Drills. Existing controls and localStorage prototype preserved.
+OGX Smart Club Management v29: Training Setup opens as a modal when Live Training is selected. Reopen with the Training Setup button. All original setup fields and Start / Apply settings remain intact. Club Management is unchanged. LocalStorage prototype.

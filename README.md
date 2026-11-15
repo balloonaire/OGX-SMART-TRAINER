@@ -1,5 +1,1 @@
-OGX Smart Club Management v30
-
-Live Training moved to the left navigation sidebar. Training Setup opens only from the top toolbar button (or Training Settings sidebar shortcut). Live Performance Graph is the first section on the Live Training page. Other features retained.
-
-LocalStorage prototype only; no cloud synchronization or authentication.
+OGX Smart Club Management v32: Removed redundant top navigation labels, kept top Training Settings button, moved Reset Live into Training Settings modal. Left navigation remains. Reset uses original confirmation and preserves saved session history. Browser-local prototype.

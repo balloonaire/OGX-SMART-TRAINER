@@ -1,1 +1,3 @@
-OGX Smart Club Management v32: Removed redundant top navigation labels, kept top Training Settings button, moved Reset Live into Training Settings modal. Left navigation remains. Reset uses original confirmation and preserves saved session history. Browser-local prototype.
+# OGX Smart Club v33
+
+Top toolbar: WORKSPACE dropdown containing Live Training & Drills, Players & Reports, and Club Management; independent Training Settings pop-up. RESET LIVE remains inside Training Settings. Live Performance Graph stays at top.

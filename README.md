@@ -1,1 +1,1 @@
-OGX Smart Club v36: recorded video local preview beside Stop Camera; drill-specific saved session graph; Start/Resume timer in Training Setup. Videos are not uploaded to a server or analysed automatically.
+OGX v37: individual court-player target input boxes in Training Settings, saved-session drill distribution pie chart by player. Pie slices represent attempts, not skill. Uses local browser storage.

@@ -1,3 +1,1 @@
-# OGX Smart Club v33
-
-Top toolbar: WORKSPACE dropdown containing Live Training & Drills, Players & Reports, and Club Management; independent Training Settings pop-up. RESET LIVE remains inside Training Settings. Live Performance Graph stays at top.
+OGX Smart Club v34. Club Management order: Attendance, Basic Accounts, Club Management Dashboard. Export Accounts PDF beside CSV opens printable report in a new tab; use Print / Save as PDF (browser print destination). No external libraries or cloud connection.

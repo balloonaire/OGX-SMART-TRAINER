@@ -1,13 +1,7 @@
-# OGX Smart Club Management v35 — Verification
+# OGX Smart Club v36 Test Results
 
-- PASS: All 8 inline JavaScript blocks pass Node syntax validation.
-- PASS: Workspace dropdown displays Player Movement Analysis and navigates to it; Live Training is hidden when this view is active.
-- PASS: Coach observation form saves and renders a player assessment with a mocked browser localStorage interface (browser `about:blank` environment blocks real localStorage).
-- PASS: Club Management view and Accounts PDF button remain accessible.
-- PASS: Live Training view remains accessible.
-- PASS: No browser JavaScript page errors in tested navigation and form interactions.
-- PASS: ZIP integrity.
+PASS: Nine inline JavaScript blocks passed `node --check`.
+PASS: ZIP integrity passed.
+PASS: Chromium smoke test — drill graph selector switches saved drill view and current live view; Training Setup opens and Start/Resume timer button is inside modal; Workspace navigates to Movement Analysis; selecting a local sample WebM file updates the video status and source; no page JavaScript errors observed.
 
-NOT TESTED: physical camera access, actual browser localStorage persistence across reloads, PDF print output, complete scoring regression, multi-user syncing.
-
-LIMITATION: Movement assessment is coach-entered; camera is a live preview only. No AI pose inference, automatic motion metrics, video recording, or upload. Camera requires browser permission and secure origin (HTTPS or localhost).
+LIMITATIONS: The test video contained placeholder bytes, so actual playback/decoding was not verified. Camera hardware was not tested. Saved drill trend rendering with real historical training sessions was not exercised. Timer counting over time was not regression-tested. AI pose analysis and video upload to a remote server are not implemented. This application uses browser-local storage.

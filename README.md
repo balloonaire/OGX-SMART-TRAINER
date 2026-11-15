@@ -1,1 +1,1 @@
-OGX Smart Club v35: new Workspace > Player Movement Analysis. Camera preview and manual coaching assessments with local CSV export. No automated AI pose tracking, no video recording/upload, no cloud sync. HTTPS or localhost required for camera. Existing training and accounts retained.
+OGX Smart Club v36: recorded video local preview beside Stop Camera; drill-specific saved session graph; Start/Resume timer in Training Setup. Videos are not uploaded to a server or analysed automatically.

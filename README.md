@@ -1,1 +1,1 @@
-OGX Smart Club v34. Club Management order: Attendance, Basic Accounts, Club Management Dashboard. Export Accounts PDF beside CSV opens printable report in a new tab; use Print / Save as PDF (browser print destination). No external libraries or cloud connection.
+OGX Smart Club v35: new Workspace > Player Movement Analysis. Camera preview and manual coaching assessments with local CSV export. No automated AI pose tracking, no video recording/upload, no cloud sync. HTTPS or localhost required for camera. Existing training and accounts retained.

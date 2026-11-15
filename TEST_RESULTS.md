@@ -1,12 +1,10 @@
-# OGX Smart Club Management v25 — Test report
+# OGX Smart Club Management v26 — Test Results
 
-Date: 2026-11-13
+Browser tested with Chromium using injected HTML (`page.set_content`) because direct local HTTP navigation was blocked by the environment.
 
-PASS: 5 inline JavaScript scripts validated with `node --check`.
-PASS: ZIP archive integrity checked with Python zipfile.
-PASS: Chromium/Playwright DOM test via `page.set_content`: application title, Attendance tab visible, roster populated, attendance save handler, Accounts tab visible, invoice creation, payment recording, expense recording, dashboard visibility, training tab visibility.
-PASS: No JavaScript page errors detected during the above interactions.
+PASS: Club Management dashboard, Attendance and Basic Accounts tabs visible; load 2 player profiles; save attendance; create invoice; record payment; record expense; return to Live Training; no JavaScript page errors during tested interactions.
+PASS: JavaScript syntax checks, ZIP archive integrity.
+FIXED: Browser document title updated from v25 to v26.
 
-LIMITATION: Direct file:// navigation is blocked by the browser environment. The test used injected page HTML (`page.set_content`), so localStorage persistence across browser restarts, remote hosting, multi-user synchronisation, access controls, and secure PostgreSQL connectivity were NOT tested.
-
-NOT IMPLEMENTED: Supabase authentication, database API, row-level-security policies, audit triggers, production backups, formal accounting and e-Invoicing compliance.
+NOT TESTED: persistence across browser restarts; multi-user synchronisation; database connection; financial reconciliation and role permissions.
+This is a localStorage prototype, not production-ready for sensitive data.

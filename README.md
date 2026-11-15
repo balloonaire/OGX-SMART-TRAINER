@@ -1,1 +1,5 @@
-OGX Smart Club Management v29: Training Setup opens as a modal when Live Training is selected. Reopen with the Training Setup button. All original setup fields and Start / Apply settings remain intact. Club Management is unchanged. LocalStorage prototype.
+OGX Smart Club Management v30
+
+Live Training moved to the left navigation sidebar. Training Setup opens only from the top toolbar button (or Training Settings sidebar shortcut). Live Performance Graph is the first section on the Live Training page. Other features retained.
+
+LocalStorage prototype only; no cloud synchronization or authentication.

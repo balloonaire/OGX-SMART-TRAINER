@@ -1,1 +1,1 @@
-OGX Smart Club v44: Individual Drill Distribution Pie Chart permanently visible directly below the Live Performance Graph, within the same analytics card. No toggle needed. Pie data still uses saved training sessions.
+OGX Smart Club v45: Individual Drill Distribution Pie Chart is nested inside the Live Performance Graph view, directly after the performance graph. Both remain visible together. Saved sessions supply pie chart data.

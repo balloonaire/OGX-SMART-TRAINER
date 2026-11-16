@@ -1,1 +1,3 @@
-v46: Moved Graph statistics by training drill dropdown and its summary text into the SESSION SUMMARY (LIVE) panel. Existing element IDs and behavior preserved.
+# OGX Smart Club v47
+
+Adds Start Part 2 directly to the Part 2 NEXT tile in Live Performance. Reuses the existing save-and-transition workflow, including confirmation and validation.

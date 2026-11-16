@@ -1,1 +1,1 @@
-OGX Smart Club v45: Individual Drill Distribution Pie Chart is nested inside the Live Performance Graph view, directly after the performance graph. Both remain visible together. Saved sessions supply pie chart data.
+v46: Moved Graph statistics by training drill dropdown and its summary text into the SESSION SUMMARY (LIVE) panel. Existing element IDs and behavior preserved.

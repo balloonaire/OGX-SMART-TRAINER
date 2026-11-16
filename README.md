@@ -1,1 +1,1 @@
-OGX Smart Club v48: fixes double confirmation and Part 2 Active visual state. Open index.html in a browser. Browser-local saved sessions only.
+v49: Replaces the visible drill pie chart with an interactive SVG axonometric pickleball court. Drag to rotate; elevation and rotation sliders; add coach-entered ball bounce positions (20 x 44 ft), clear points and reset view. No automatic ball tracking or persistence. Existing hidden pie-chart DOM is retained for backward compatibility with prior scripts.

@@ -1,3 +1,1 @@
-# OGX Smart Club v47
-
-Adds Start Part 2 directly to the Part 2 NEXT tile in Live Performance. Reuses the existing save-and-transition workflow, including confirmation and validation.
+OGX Smart Club v48: fixes double confirmation and Part 2 Active visual state. Open index.html in a browser. Browser-local saved sessions only.

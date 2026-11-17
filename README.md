@@ -1,3 +1,1 @@
-# OGX Smart Club v54
-
-Court controls arranged in rows: bounce/perimeter; grid spacing and toggle; camera elevation and rotation; coordinate inputs; clear actions. High-contrast labels and controls. Perimeter markers have an outer amber ring.
+OGX Smart Club v55: Court Ball Bounce Analysis moved above Live Performance Graph. Rotatable court view appears above court settings. Ringed amber perimeter points can be placed anywhere inside the court without snapping. Individual points remain pink.

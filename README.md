@@ -1,3 +1,3 @@
-# OGX Smart Club v51
+# OGX Smart Club v53
 
-Multiple individual (pink, I1...) and perimeter (amber, P1...) markers; separate counters and clear controls.
+Added Grid Lines ON/OFF toggle to Court Ball Bounce Analysis. The grid spacing slider (25–300 cm) remains usable, and turning grid off does not hide court lines, kitchen zones, bounce markers or the net.
